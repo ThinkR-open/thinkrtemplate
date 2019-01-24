@@ -3,12 +3,6 @@ output:
   github_document: default
 ---
 
-<script type="text/javascript">
-$(document).ready(function () {
-  window.initializeCodeFolding("show" === "hide");
-});
-</script>
-
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
 ```{r setup, include = FALSE}
