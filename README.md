@@ -1,27 +1,31 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
-thinkrtemplate
-==============
 
-The goal of {thinkrtemplate} is to have a custom template for {pkgdown} pages.
+# thinkrtemplate
 
-Installation
-------------
+The goal of {thinkrtemplate} is to have a custom template for ThinkR
+{pkgdown} pages.
+
+**Please do not re-use it as is for your own packages**
+
+## Installation
 
 Installer le package comme un package classique
 
-Example
--------
+## Example
 
-Add a file named `_pkgdown.yml` à la racine de votre projet avec ce code:
+Add a file named `_pkgdown.yml` à la racine de votre projet avec ce
+code:
 
 ``` yaml
 template:
   package: thinkrtemplate
 ```
 
-You need to add this code at the top of your vignettes to initialize code folding.
-Choose between `"show" === "hide"` or `"show" === "show"` for default behaviour.
+You need to add this code at the top of your vignettes to initialize
+code folding.  
+Choose between `"show" === "hide"` or `"show" === "show"` for default
+behaviour.
 
 ``` js
 <script type="text/javascript">

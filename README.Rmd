@@ -15,7 +15,10 @@ knitr::opts_chunk$set(
 ```
 # thinkrtemplate
 
-The goal of {thinkrtemplate} is to have a custom template for {pkgdown} pages.
+The goal of {thinkrtemplate} is to have a custom template for ThinkR {pkgdown} pages.
+
+**Please do not re-use it as is for your own packages**
+
 
 ## Installation
 
